@@ -265,10 +265,11 @@ export async function findByAnimalDestinyAndName(
           description: item.description,
           origin: item.origin,
           status: item.status,
-          createdDate: item.createdDate,
-          createdBy: item.createdBy,
           updatedDate: item.updatedDate,
           updatedBy: item.updatedBy,
+          createdDate: item.createdDate,
+          createdBy: item.createdBy,
+
           colors:
             item.colors.map((color: any) => ({
               id: color.id,
