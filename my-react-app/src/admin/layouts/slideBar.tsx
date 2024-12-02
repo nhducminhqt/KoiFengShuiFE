@@ -37,7 +37,7 @@ const SidebarAdmin: React.FC = () => {
       <nav className="navbar bg-light navbar-light">
         <Link to="/" className="navbar-brand mx-4 mb-3">
           <h3 className="text-primary">
-            <i className="fa me-2"></i>FENGSHUIKOI
+            <i className="fa me-2"></i>FENGSHUI KOI
           </h3>
         </Link>
         <div className="d-flex align-items-center ms-4 mb-4">
