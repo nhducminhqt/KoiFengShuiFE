@@ -30,7 +30,6 @@ function Blog() {
   const handleSeeMore = () => {
     const token = getToken(); // Lấy token từ LocalStorage hoặc Cookie
     if (token) {
-      // Điều hướng tới trang ViewPost nếu token hợp lệ
       navigate("/post-list");
     } else {
       // Nếu không có token, có thể redirect về trang login hoặc hiển thị thông báo
